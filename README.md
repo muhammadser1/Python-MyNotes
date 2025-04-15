@@ -1,2 +1,5 @@
 # Python-MyNotes
- My personal notes for learning Python. Includes important topics, examples, and explanations in a clear way.
+
+Welcome to my journey through the **Python Pro Bootcamp: 100 Days of Code**!  
+This repository contains notes, projects, code samples, and explanations for each day of the course.
+
