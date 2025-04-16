@@ -75,10 +75,16 @@ You can use it to see whether a variable points to the **same object** or a **ne
 
 ```python
 x = 5
-print(id(x))  # e.g., 9789280
+print(id(x))  # output: 2359685546352
 
 x = 6
-print(id(x))  # different address → new object created
+print(id(x)) # output: 2359685546384
+
+my_list = [1, 2, 3]
+print(id(my_list))
+
+my_list[0] = 10 # output: 1614968025408
+print(id(my_list))  # output: 1614968025408
 
 ## 🧠 Why Does Mutability Matter?
 
