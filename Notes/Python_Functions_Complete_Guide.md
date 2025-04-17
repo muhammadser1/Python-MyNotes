@@ -71,7 +71,7 @@ def add_item(item, my_list=None):
 
 ## 🌐 *args and **kwargs
 
-### 🔹 *args: any number of positional arguments
+### 🔹 *args: any number of positional arguments (type of args is tuple)
 ```python
 def sum_all(*args):
     return sum(args)
@@ -79,7 +79,7 @@ def sum_all(*args):
 sum_all(1, 2, 3)  # 6
 ```
 
-### 🔹 **kwargs: any number of named keyword arguments
+### 🔹 **kwargs: any number of named keyword arguments (type of kwargs is dict)
 ```python
 def print_info(**kwargs):
     for key, value in kwargs.items():
