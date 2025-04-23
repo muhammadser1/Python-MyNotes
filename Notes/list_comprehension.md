@@ -112,3 +112,11 @@ print(new_dict)  # {'a': 2, 'b': 4, 'c': 6}
 ---
 
 Keep your code **clean, fast, and elegant** with list comprehensions! 🚀
+
+
+### 🔍 What does get() do in Python?
+#### The .get() method is used with dictionaries to retrieve the value for a given key — safely.
+#### dict.get(key, default=None)
+#### key: the key you want to look up.
+
+#### default (optional): what to return if the key is not found. Default is None.
