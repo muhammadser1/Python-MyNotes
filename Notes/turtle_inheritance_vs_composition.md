@@ -55,3 +55,6 @@ This means: **“A `Player` _has a_ Turtle.”**
 | **Inheritance** | When your class _is a_ special type of another (e.g., `Player` _is a_ `Turtle`) |
 | **Composition** | When your class _has_ other parts (e.g., `Player` _has a_ `Turtle`) |
 
+class QuizInterface:
+    def __init__(self, quiz: QuizBrain):
+        self.quiz = quiz  # ✅ has-a relationship
